@@ -144,24 +144,24 @@
     "Insert task list": {
         "prefix": "task",
         "body": [
-            "- [ ] ${1:text}${0}"
+            "- [ ] ${1}${0}"
         ],
         "description": "Insert task list"
     },
     "Insert task list 2": {
         "prefix": "task2",
         "body": [
-            "- [ ] ${1:text}",
-            "- [ ] ${2:text}${0}"
+            "- [ ] ${1}",
+            "- [ ] ${2}${0}"
         ],
         "description": "Insert task list with 2 tasks"
     },
     "Insert task list 3": {
         "prefix": "task3",
         "body": [
-            "- [ ] ${1:text}",
-            "- [ ] ${2:text}",
-            "- [ ] ${3:text}${0}"
+            "- [ ] ${1}",
+            "- [ ] ${2}",
+            "- [ ] ${3}${0}"
         ],
         "description": "Insert task list with 3 tasks"
     },
